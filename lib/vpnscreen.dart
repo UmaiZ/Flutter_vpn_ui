@@ -58,7 +58,7 @@ class _VpnPageState extends State<VpnPage> with TickerProviderStateMixin {
 
     _sidesanimationController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 2000),
+      duration: const Duration(milliseconds: 1800),
     );
 
     _headcontroller = Tween<Offset>(
